@@ -1,0 +1,43 @@
+**//Associação Bidirecional (0.1)**
+
+public class Alunos {
+	private List<Turma> turma;
+ 
+	public Turma getTurma(){
+		return turma;
+	}
+ 
+	public void setTurmas(List<Turma> turmas){
+		this.turmas = turmas;
+	}
+
+**//Associação Unidirecional**
+
+public class  Bairro {
+	private Rua rua;
+ 
+	public Rua  getRua (){
+		return rua;
+	}
+ 
+	public void setRua(Rua rua){
+		this.rua = rua;
+	}
+ 
+
+}
+
+
+**//Associação Bidirecional (0.0)**
+
+public class Professor {
+	private Nome nome;
+ 
+	public Nome getNome(){
+		return nome;
+	}
+ 
+	public void setNome(Nome nome){
+		this.nome = nome;
+	}
+
